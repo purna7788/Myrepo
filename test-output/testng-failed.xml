@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteName]">
+  <test name="LoginTest(failed)">
+    <classes>
+      <class name="com.datadriven.zoho.project.testcases.LeadTest">
+        <methods>
+          <include name="aftertest"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.datadriven.zoho.project.testcases.LeadTest -->
+      <class name="com.datadriven.zoho.project.testcases.LoginTest">
+        <methods>
+          <include name="doLoginTest" invocation-numbers="1"/>
+          <include name="init"/>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- com.datadriven.zoho.project.testcases.LoginTest -->
+      <class name="com.datadriven.zoho.project.testcases.PotentialTest">
+        <methods>
+          <include name="init"/>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- com.datadriven.zoho.project.testcases.PotentialTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+  <test name="LeadTest(failed)">
+    <classes>
+      <class name="com.datadriven.zoho.project.testcases.LeadTest">
+        <methods>
+          <include name="aftertest"/>
+          <include name="convertLeadTest" invocation-numbers="1 2 3"/>
+          <include name="DeleteLeadAccountTest" invocation-numbers="0"/>
+          <include name="createLeadtest" invocation-numbers="1 2 3"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.datadriven.zoho.project.testcases.LeadTest -->
+      <class name="com.datadriven.zoho.project.testcases.LoginTest">
+        <methods>
+          <include name="init"/>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- com.datadriven.zoho.project.testcases.LoginTest -->
+      <class name="com.datadriven.zoho.project.testcases.PotentialTest">
+        <methods>
+          <include name="init"/>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- com.datadriven.zoho.project.testcases.PotentialTest -->
+    </classes>
+  </test> <!-- LeadTest(failed) -->
+</suite> <!-- Failed suite [SuiteName] -->

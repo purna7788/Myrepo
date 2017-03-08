@@ -1,0 +1,18 @@
+<suite name="SuiteName">
+	<test name="LoginTest" allow-return-values="true">
+		<classes>
+			<class name="com.datadriven.zoho.project.testcases.LoginTest" />
+		</classes>
+	</test>
+	<test name="LeadTest" allow-return-values="true">
+		<classes>
+			<class name="com.datadriven.zoho.project.testcases.LeadTest" />
+			
+		</classes>
+	</test>
+	<test name="PotentialTest" allow-return-values="true">
+		<classes>
+			<class name="com.datadriven.zoho.project.testcases.PotentialTest" />
+		</classes>
+	</test>
+</suite>
